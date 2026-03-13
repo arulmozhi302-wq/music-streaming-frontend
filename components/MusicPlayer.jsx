@@ -1,7 +1,7 @@
 import { useContext, useRef, useEffect } from "react";
 import { PlayerContext } from "../context/PlayerContext.jsx";
 
-function MusicPlayer(){
+function Musicplayer(){
 
 const { currentSong } = useContext(PlayerContext);
 
@@ -50,4 +50,4 @@ return(
 
 }
 
-export default MusicPlayer;
+export default Musicplayer;

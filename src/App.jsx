@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar.jsx";
 import Sidebar from "../components/Sidebar.jsx";
-import MusicPlayer from "../components/Musicplayer.jsx";
+import Musicplayer from "../components/Musicplayer.jsx";
 import Home from "../pages/Home.jsx";
 
 
@@ -20,7 +20,7 @@ return (
         </Routes>
       </div>
     </div>
-    <MusicPlayer />
+    <Musicplayer />
     </div>
 </BrowserRouter>
 
