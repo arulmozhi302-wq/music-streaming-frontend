@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar.jsx";
 import Sidebar from "../components/Sidebar.jsx";
-import Musicplayer from "../components/Musicplayer.jsx";
 import Home from "../pages/Home.jsx";
+import MusicPlayList from "../components/MusicPlayList.jsx";
 
 
 function App() {
@@ -20,7 +20,7 @@ return (
         </Routes>
       </div>
     </div>
-    <Musicplayer />
+    <MusicPlayList />
     </div>
 </BrowserRouter>
 
